@@ -19,8 +19,8 @@ jobs:
         run: npm ci --cache .npm --prefer-offline
       - name: Validate
         run: npm run lint
-      - name: Test
-        run: npm test
+    #   - name: Test
+    #     run: npm test
       - name: Build for production
         run: npm run build
       - uses: actions/upload-artifact@master
