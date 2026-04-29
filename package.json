@@ -5,7 +5,7 @@
   "main": "src/index.js",
   "scripts": {
     "start": "node src/index.js",
-    "lint": "eslint src/** --fix"
+    "lint": "eslint . --fix"
   },
   "devDependencies": {
     "vite": "^5.0.8",
